@@ -21,7 +21,6 @@ dependencies:
     - torchlars==0.1.2
     - mmcv==1.4.2
     - mmcls==0.17.0
-    - Cython==0.29.30
     - faiss-gpu==1.7.2
     - gdown==4.5.1
     - torch==2.0.0+cu118
