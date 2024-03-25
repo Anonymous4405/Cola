@@ -1,0 +1,7 @@
+postprocessor:
+  name: nuco
+  APS_mode: True
+  postprocessor_args:
+    dim: 64
+  postprocessor_sweep:
+    dim_list: [256, 512]

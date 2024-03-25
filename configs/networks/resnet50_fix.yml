@@ -1,0 +1,6 @@
+network:
+  name: resnet50_fix
+  num_classes: '@{dataset.num_classes}'
+  pretrained: True          # set 'True' to load pretrained model
+  checkpoint: none           # ignore if pretrained is false
+  num_gpus: '@{num_gpus}'
